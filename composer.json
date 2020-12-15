@@ -1,0 +1,17 @@
+{
+    "name": "varius/hello-composer",
+    "description": "A simple hello world composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "varius",
+            "email": "itbeard@inbox.lv"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"varius\\HelloWorld\\": "src/"}
+    },
+    "require": {}
+}
