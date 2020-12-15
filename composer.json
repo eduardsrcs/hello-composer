@@ -1,18 +1,18 @@
 {
-    "name": "mvarius/hello-composer",
+    "name": "eduardsrcs/hello-composer",
     "description": "A simple hello world composer package",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "mvarius",
+            "name": "eduardsrcs",
             "email": "itbeard@inbox.lv"
         }
     ],
     "minimum-stability": "stable",
     "version": "1.0.0",
     "autoload": {
-        "psr-4": {"mvarius\\HelloWorld\\": "src/"}
+        "psr-4": {"eduardsrcs\\HelloWorld\\": "src/"}
     },
     "require": {}
 }
